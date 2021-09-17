@@ -1,0 +1,12 @@
+.navbar{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar li{
+  list-style-type: none;
+  margin: 10px;
+}
+.button{
+  display: flex;
+}
