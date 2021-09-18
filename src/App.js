@@ -2,28 +2,35 @@ import './App.css'
 import { useState } from 'react';
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
-
+import {products} from './data.js';
 function App() {
-  const products = [
-    {
-    id : 1,
-    title : "Kruch Burger",
-    slug : "krunch-burger",
-    image: "/images/card2.png",
-    description: "Enjoy a crispy chicken fillet in a soft burger",
-    price: 195,
-    stock: 10,
-    category: "everyday-value"
-    }
-  ]
-  const [val, setVal] = useState(10)
+
+  // const [product, setProduct]= useState({
+  //   title: 'Mouse',
+  //   price: 200,
+  //   stock: 10
+  // })
+
+  // const updateVal=()=>{
+  //   setProduct({...product,price: product.price+20,stock: product.stock+1})
+  // }
+  //For updating single value
+  // const [val, setVal] = useState(10)
+  // const updateCount=() =>{
+  //   setVal(val+1)
+  // }
+
   return (
     <div className='container'>
       <Header />
-      <Home data = {val} />
+      <Home products={products} />
 
-      <div>1</div>
-      <button></button>
+      <div>
+      {/* {product.title}
+      {product.price}
+      {product.stock} */}
+      </div>
+      {/* <button onClick={updateVal}>update</button> */}
     </div>
   );
 }

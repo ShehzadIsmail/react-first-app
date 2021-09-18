@@ -1,20 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Card from '../../components/card/Card'
 import Slider from '../../components/slider/Slider'
 
 function Home(props) {
-    console.log(props)
+    const [products, setProducts] = useState(props.products)
     return (
         <div>
             <Slider />
             <div className="home-wrapper" style={{paddingTop: "30px", paddingBottom:"10px"}}>
             <div className="row">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            {
+                products.map((p,i)=> <Card key={i} product={p}/>)
+            }
             </div>
             </div>
         </div>
