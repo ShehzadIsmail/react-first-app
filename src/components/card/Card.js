@@ -1,3 +1,4 @@
+import './Card.css'
 import React from 'react'
 // import xs from '/images/xs.png'
 // import card2 from '/images/card2.png'
