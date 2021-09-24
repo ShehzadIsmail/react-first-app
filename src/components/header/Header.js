@@ -25,27 +25,27 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                                <a className="nav-link" href="#">EVERYDAY VALUE</a>
+                                <Link className="nav-link" to="/collection/everyday-value">EVERYDAY VALUE</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">MAKE IT A MEAL</a></li>
+                                <Link className="nav-link" to="/collection/make-it-a-meal">MAKE IT A MEAL</Link></li>
                             
                             <li className="nav-item">
-                                <a className="nav-link" href="#">SIGNATURE BOXES</a>
+                                <Link className="nav-link" to="/collection/signature-boxes">SIGNATURE BOXES</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">SHARING</a></li>
+                                <Link className="nav-link" to="/collection/sharing">SHARING</Link></li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">PROMOTIONS</a>
+                                <Link className="nav-link" to="/collection/promotions">PROMOTIONS</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">SNACKS</a>
+                                <Link className="nav-link" to="/collection/snacks">SNACKS</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">MIDNIGHT DEALS</a>
+                                <Link className="nav-link" to="/collection/midnight-deals">MIDNIGHT DEALS</Link>
                             </li>
                         </ul>
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0"> 
                             <li className="navitem">0</li>
                         </ul>
                     </div>

@@ -12,6 +12,8 @@ import {
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import NotFound from './pages/notfound/NotFound';
+import ProductDetails from './pages/productDetails/ProductDetails';
+import Products from './pages/products/Products';
 function App() {
 
   // const [product, setProduct]= useState({
@@ -36,6 +38,8 @@ function App() {
         <Switch>
           <Route exact path="/account/login"><Login /></Route>
           <Route exact path="/account/register"><Register /></Route>
+          <Route exact path="/product/:slug"><ProductDetails /></Route>
+          <Route exact path="/collection/:category"><Products /></Route>
           <Route exact path="/"><Home products={products}/></Route>
           <Route path="*"><NotFound /></Route>
         </Switch>

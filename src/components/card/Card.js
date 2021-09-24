@@ -1,5 +1,6 @@
 import './Card.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 // import xs from '/images/xs.png'
 // import card2 from '/images/card2.png'
 
@@ -12,7 +13,7 @@ function Card(props) {
                 <div className="card-body">
                     <h5 className="card-title">{product.title}</h5>
                     <p className="card-text">{product.description}</p>
-                    <a href="#" className="btn btn-primary">Add to cart</a>
+                    <Link to={`/product/${product.slug}`} className="btn btn-primary">Add to cart</Link>
                 </div>
                 
             </div>

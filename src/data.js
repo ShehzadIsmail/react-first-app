@@ -157,7 +157,7 @@ export const products = [
       description: "2 Pc Hot & Crispy Chicken, 1 Regular Fries, 1 Regular Drink & 1 Coleslaw.",
       price: 495,
       stock: 14,
-      category: "signature-box"
+      category: "signature-boxes"
   },
   {
       id: 17,
@@ -167,41 +167,41 @@ export const products = [
       description: "4 Zinger Strips + 1 Coleslaw + Fries + Drink + 1 Dip + 1 Dinner Roll.",
       price: 540,
       stock: 14,
-      category: "signature-box"
+      category: "signature-boxes"
   },
   {
       id: 18,
-      title: "wow box",
+      title: "Wow Box",
       slug: "wow-box",
       image: "/images/products/sb-3.png",
       description: "1 Zinger Burger + 1 Pc Chicken + 1 Fries + 1 Drink + 1 Coleslaw.",
       price: 750,
       stock: 14,
-      category: "signature-box"
+      category: "signature-boxes"
   },
   {
       id: 19,
-      title: "crispy duo box",
+      title: "Crispy Duo Box",
       slug: "crispy-duo-box",
       image: "/images/products/sb-4.png",
       description: "5 Pcs Hot & Crispy Chicken + 1 Large Fries + 2 Drinks.",
       price: 950,
       stock: 14,
-      category: "signature-box"
+      category: "signature-boxes"
   },
   {
       id: 20,
-      title: "xtreme duo box",
+      title: "Xtreme Duo Box",
       slug: "xtreme-duo-box",
       image: "/images/products/sb-5.png",
       description: "2 Zingers + 2 Pcs Hot & Crispy Chicken + 1 Large Fries + 2 Drinks.",
       price: 1150,
       stock: 14,
-      category: "signature-box"
+      category: "signature-boxes"
   },
   {
     id: 21,
-    title: "value bucket",
+    title: "Value bucket",
     slug: "value-bucket",
     image: "/images/products/s1.png",
     description: "9 Pcs Hot & Crispy Chicken",
